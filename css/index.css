@@ -168,6 +168,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  margin: 20px 0;
+}
+nav {
+  display: flex;
+  border-bottom: 3px dashed #C0C0C0;
+  width: 50vw;
+  margin-left: -100px;
+}
+.main-nav {
+  display: flex;
+  margin-left: 650px;
+}
+.main-nav p {
+  margin-left: 20px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -184,6 +200,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.home .content-section .main-header {
+  width: 100%;
+  border-bottom: 3px dashed #C0C0C0;
+  margin-bottom: 20px;
 }
 .home .content-section .text-content {
   width: 48%;
