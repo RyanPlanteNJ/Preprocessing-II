@@ -1,4 +1,7 @@
 .home {
+  @media @tablet{
+    padding: 3%;
+  }
   @media @mobile{
     padding: 3%;
   }
@@ -53,7 +56,7 @@
         @media @mobile{
           width:100%;
     }
-
+  }
     .img-content {
       padding-right: 1%;
       padding-left: 0;
@@ -85,7 +88,7 @@
       @media @mobile{
         flex-flow: column;
       }
-}
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
@@ -96,10 +99,13 @@
     }
       .btn{
         .buttons();
+          @media @tablet{
+            font-size: 18px;
+          }
           @media @mobile{
             display: flex;
             justify-content: center;
           }
       }
   }
-}// home
+}//home

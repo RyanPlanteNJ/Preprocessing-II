@@ -11,6 +11,14 @@ header{
     border-bottom: 3px dashed @navigation-border;
     width: 50vw;
     margin-left:-100px;
+      @media @tablet{
+        text-align:center;
+        margin-left: 0px;
+        width:100%;
+          h1{
+            margin-left: 10px;
+          }
+        }
       @media @mobile{
         text-align: center;
         flex-flow: column;
@@ -21,6 +29,9 @@ header{
   .main-nav{
     display:flex;
     margin-left: 500px;
+      @media @tablet{
+        margin-left: 300px;
+      }
       @media @mobile{
         justify-content: space-between;
         text-align:center;

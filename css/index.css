@@ -182,6 +182,16 @@ nav {
   width: 50vw;
   margin-left: -100px;
 }
+@media (max-width:800px) {
+  nav {
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+  }
+  nav h1 {
+    margin-left: 10px;
+  }
+}
 @media (max-width:500px) {
   nav {
     text-align: center;
@@ -193,6 +203,11 @@ nav {
 .main-nav {
   display: flex;
   margin-left: 500px;
+}
+@media (max-width:800px) {
+  .main-nav {
+    margin-left: 300px;
+  }
 }
 @media (max-width:500px) {
   .main-nav {
@@ -219,6 +234,11 @@ nav {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+@media (max-width:800px) {
+  .home {
+    padding: 3%;
+  }
 }
 @media (max-width:500px) {
   .home {
@@ -282,51 +302,51 @@ nav {
     width: 100%;
   }
 }
-.home .inverse-content .text-content .img-content {
+.home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
 @media (max-width:500px) {
-  .home .inverse-content .text-content .img-content {
+  .home .inverse-content .img-content {
     width: 100%;
   }
 }
-.home .inverse-content .content-destination {
+.home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
 @media (max-width:500px) {
-  .home .inverse-content .content-destination {
+  .home .content-destination {
     width: 100%;
     display: flex;
     flex-flow: column;
   }
 }
-.home .inverse-content .content-destination img {
+.home .content-destination img {
   border-radius: 10px;
 }
-.home .inverse-content .content-pick {
+.home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
 }
 @media (max-width:500px) {
-  .home .inverse-content .content-pick {
+  .home .content-pick {
     flex-flow: column;
   }
 }
-.home .inverse-content .destination {
+.home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
 @media (max-width:500px) {
-  .home .inverse-content .destination {
+  .home .content-pick .destination {
     width: 100%;
     text-align: left;
   }
 }
-.home .inverse-content .btn {
+.home .content-pick .btn {
   font-weight: bold;
   color: #FFFFFF;
   border-radius: 20px;
@@ -335,8 +355,13 @@ nav {
   display: inline-block;
   background-color: #17A2B8;
 }
+@media (max-width:800px) {
+  .home .content-pick .btn {
+    font-size: 18px;
+  }
+}
 @media (max-width:500px) {
-  .home .inverse-content .btn {
+  .home .content-pick .btn {
     display: flex;
     justify-content: center;
   }
