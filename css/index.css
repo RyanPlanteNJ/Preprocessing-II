@@ -209,6 +209,11 @@ nav {
     margin-left: 300px;
   }
 }
+@media (max-width:768px) {
+  .main-nav {
+    margin-left: 268px;
+  }
+}
 @media (max-width:500px) {
   .main-nav {
     justify-content: space-between;
@@ -358,6 +363,11 @@ nav {
 @media (max-width:800px) {
   .home .content-pick .btn {
     font-size: 18px;
+  }
+}
+@media (max-width:768px) {
+  .home .content-pick .btn {
+    font-size: 16px;
   }
 }
 @media (max-width:500px) {
