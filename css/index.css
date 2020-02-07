@@ -192,7 +192,7 @@ nav {
 }
 .main-nav {
   display: flex;
-  margin-left: 650px;
+  margin-left: 500px;
 }
 @media (max-width:500px) {
   .main-nav {
